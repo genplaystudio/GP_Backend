@@ -15,6 +15,7 @@ langserve = {extras = ["server"], version = ">=0.0.30"}
 pydantic = "<2"
 openai-functions-agent-gmail = {path = "packages\\openai-functions-agent-gmail", develop = true}
 pirate-speak = {path = "packages\\pirate-speak", develop = true}
+openai-functions-agent = {path = "packages\\openai-functions-agent", develop = true}
 
 
 [tool.poetry.group.dev.dependencies]
