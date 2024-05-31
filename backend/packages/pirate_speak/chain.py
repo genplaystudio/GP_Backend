@@ -5,7 +5,7 @@ _prompt = ChatPromptTemplate.from_messages(
     [
         (
             "system",
-            "Translate user input into pirate speak",
+            "You are a helpful assistant",
         ),
         MessagesPlaceholder("chat_history"),
         ("human", "{text}"),
